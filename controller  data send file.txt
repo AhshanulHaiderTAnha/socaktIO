@@ -1,0 +1,12 @@
+First load __construct function and paste bellow code 
+
+
+        $this->socketclient = new SocketIO('159.203.4.46', 5000);
+        $this->socketclient->setQueryParams([
+            'token' => 'edihsudshuz',
+            'id' => '8780',
+            'cid' => '344',
+            'cmp' => 2339
+        ]);
+
+

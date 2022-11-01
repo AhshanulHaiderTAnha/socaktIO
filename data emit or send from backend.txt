@@ -1,0 +1,4 @@
+$socketdata=array();
+$socketdata['a']=''value;
+$socketdata['b']=''value;
+ $success = $this->socketclient->emit('newbid',$socketdata);

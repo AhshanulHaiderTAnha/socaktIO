@@ -1,0 +1,15 @@
+cdn : <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.5.0/socket.io.js"></script>
+
+<script>
+    var socket = io('https://socket.bidpro.ca', {
+        secure: true
+    })
+    // we are listening to the posts event on the sockeet, if it comes, we will print it and look at the console.
+  
+    socket.on("<?php echo 'newbid'.$post->ID;?>", function(response) {
+       
+    });
+
+    
+
+</script>
